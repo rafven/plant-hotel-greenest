@@ -15,9 +15,7 @@ public class GuestList {
         guestList.add(new CarnivorousPlants("Meatloaf", 0.7));
     }
 
-    // Metoden går igenom gästlistan och söker efter ett växtnamn
-    // utan att skilja på stora och små bokstäver.
-    // Den returnerar växtobjektet om det finns, annars null.
+    // Söker oavsett stora/små bokstäver. Returnerar null om växten inte finns i listan.
     public Plants findPlant(String name) {
         for (Plants plant : guestList) {
             if (plant.getName().equalsIgnoreCase(name)) {

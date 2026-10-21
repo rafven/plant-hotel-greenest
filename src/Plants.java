@@ -1,5 +1,4 @@
-// Klassen följer interfacet Calculation medan de konkreta underklasserna
-// implementerar själva beräkningen av vätskemängden.
+// Underklasserna implementerar beräkningen av vätskebehovet.
 public abstract class Plants implements Calculation {
     String name;
     // Längden på växter anges i meter.
