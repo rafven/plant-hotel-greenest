@@ -7,6 +7,6 @@ public class Palms extends Plants {
 
     @Override
     public double calculateLiquid() {
-        return 0.5 * length;
+        return liquidType.getLitersPerMeter() * length;
     }
 }

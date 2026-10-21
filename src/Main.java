@@ -28,7 +28,7 @@ public class Main {
             return;
         }
 
-        // Polymorfism: Variabeln plant har typen Plants, men kan referera till ett
+        // Variabeln plant har typen Plants, men kan referera till ett
         // objekt av klassen Cactus, Palms eller CarnivorousPlants.
         // Metoden calculateLiquid beräknar vätskebehovet för det specifika växtobjektet
         // beroende på objektets klass.

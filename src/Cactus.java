@@ -7,6 +7,6 @@ public class Cactus extends Plants {
 
     @Override
     public double calculateLiquid() {
-        return 0.02;
+        return liquidType.getBaseLiters();
     }
 }

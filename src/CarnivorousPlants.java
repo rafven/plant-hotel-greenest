@@ -7,6 +7,6 @@ public class CarnivorousPlants extends Plants {
 
     @Override
     public double calculateLiquid() {
-        return 0.1 + (0.2 * length);
+        return liquidType.getBaseLiters() + (liquidType.getLitersPerMeter() * length);
     }
 }
